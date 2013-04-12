@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# Mac
+.DS_Store
+
+# binary folder
+bin/

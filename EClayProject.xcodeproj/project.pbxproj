@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B3679A461717996400CB7408 /* ECCanvas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECCanvas.cpp; sourceTree = "<group>"; };
+		B3679A471717996400CB7408 /* ECCanvas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECCanvas.hpp; sourceTree = "<group>"; };
+		B3679A481717996400CB7408 /* ECModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECModel.cpp; sourceTree = "<group>"; };
+		B3679A491717996400CB7408 /* ECModel.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECModel.cu; sourceTree = "<group>"; };
+		B3679A4A1717996400CB7408 /* ECModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECModel.hpp; sourceTree = "<group>"; };
+		B3679A4C1717996400CB7408 /* ECCudaOperator.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECCudaOperator.cu; sourceTree = "<group>"; };
+		B3679A4D1717996400CB7408 /* EClay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EClay.hpp; sourceTree = "<group>"; };
+		B3679A4F1717996400CB7408 /* ECUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECUtil.cpp; sourceTree = "<group>"; };
+		B3679A501717996400CB7408 /* ECUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECUtil.hpp; sourceTree = "<group>"; };
+		B3679A511717996400CB7408 /* stbi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stbi.hpp; sourceTree = "<group>"; };
+		B3679A531717996400CB7408 /* ECMath.cuh */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECMath.cuh; sourceTree = "<group>"; };
+		B3679A541717996400CB7408 /* ECMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECMatrix.cpp; sourceTree = "<group>"; };
+		B3679A551717996400CB7408 /* ECMatrix.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECMatrix.cu; sourceTree = "<group>"; };
+		B3679A561717996400CB7408 /* ECMatrix.cuh */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECMatrix.cuh; sourceTree = "<group>"; };
+		B3679A571717996400CB7408 /* ECMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECMatrix.hpp; sourceTree = "<group>"; };
+		B3679A581717996400CB7408 /* ECQuaternion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECQuaternion.cpp; sourceTree = "<group>"; };
+		B3679A591717996400CB7408 /* ECQuaternion.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECQuaternion.cu; sourceTree = "<group>"; };
+		B3679A5A1717996400CB7408 /* ECQuaternion.cuh */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECQuaternion.cuh; sourceTree = "<group>"; };
+		B3679A5B1717996400CB7408 /* ECQuaternion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECQuaternion.hpp; sourceTree = "<group>"; };
+		B3679A5C1717996400CB7408 /* ECVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECVector.cpp; sourceTree = "<group>"; };
+		B3679A5D1717996400CB7408 /* ECVector.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECVector.cu; sourceTree = "<group>"; };
+		B3679A5E1717996400CB7408 /* ECVector.cuh */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECVector.cuh; sourceTree = "<group>"; };
+		B3679A5F1717996400CB7408 /* ECVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECVector.hpp; sourceTree = "<group>"; };
+		B3679A611717996400CB7408 /* ECPixelBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECPixelBuffer.cpp; sourceTree = "<group>"; };
+		B3679A621717996400CB7408 /* ECPixelBuffer.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECPixelBuffer.cu; sourceTree = "<group>"; };
+		B3679A631717996400CB7408 /* ECPixelBuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECPixelBuffer.hpp; sourceTree = "<group>"; };
+		B3679A641717996400CB7408 /* ECRenderState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECRenderState.hpp; sourceTree = "<group>"; };
+		B3679A661717996400CB7408 /* ECSmtPtr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECSmtPtr.hpp; sourceTree = "<group>"; };
+		B3679A691717996B00CB7408 /* bomb.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bomb.mtl; sourceTree = "<group>"; };
+		B3679A6A1717996B00CB7408 /* bomb.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = bomb.obj; sourceTree = "<group>"; };
+		B3679A6B1717996B00CB7408 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		B3679A6C1717996B00CB7408 /* hare.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = hare.mtl; sourceTree = "<group>"; };
+		B3679A6D1717996B00CB7408 /* hare.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = hare.obj; sourceTree = "<group>"; };
+		B3679A6E1717996B00CB7408 /* hare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hare.png; sourceTree = "<group>"; };
+		B3679A6F1717996B00CB7408 /* majo.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = majo.mtl; sourceTree = "<group>"; };
+		B3679A701717996B00CB7408 /* majo.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = majo.obj; sourceTree = "<group>"; };
+		B3679A711717996B00CB7408 /* majo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = majo.png; sourceTree = "<group>"; };
+		B3679A721717996B00CB7408 /* manjuu.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = manjuu.mtl; sourceTree = "<group>"; };
+		B3679A731717996B00CB7408 /* manjuu.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = manjuu.obj; sourceTree = "<group>"; };
+		B3679A741717996B00CB7408 /* manjuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manjuu.png; sourceTree = "<group>"; };
+		B3679A751717996B00CB7408 /* ninteru03.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ninteru03.mtl; sourceTree = "<group>"; };
+		B3679A761717996B00CB7408 /* ninteru03.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = ninteru03.obj; sourceTree = "<group>"; };
+		B3679A771717996B00CB7408 /* ninterutexture02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninterutexture02.png; sourceTree = "<group>"; };
+		B3679A781717996B00CB7408 /* no_nrm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_nrm.png; sourceTree = "<group>"; };
+		B3679A791717996B00CB7408 /* onigiri.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = onigiri.mtl; sourceTree = "<group>"; };
+		B3679A7A1717996B00CB7408 /* onigiri.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = onigiri.obj; sourceTree = "<group>"; };
+		B3679A7B1717996B00CB7408 /* onigiri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onigiri.png; sourceTree = "<group>"; };
+		B3679A7C1717996B00CB7408 /* plate.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = plate.mtl; sourceTree = "<group>"; };
+		B3679A7D1717996B00CB7408 /* plate.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = plate.obj; sourceTree = "<group>"; };
+		B3679A7E1717996B00CB7408 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		B3679A7F1717997500CB7408 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3679A801717997500CB7408 /* SampleApplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SampleApplication.cpp; sourceTree = "<group>"; };
+		B3679A811717997500CB7408 /* SampleApplication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SampleApplication.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B3679A381717994F00CB7408 = {
+			isa = PBXGroup;
+			children = (
+				B3679A7F1717997500CB7408 /* main.cpp */,
+				B3679A801717997500CB7408 /* SampleApplication.cpp */,
+				B3679A811717997500CB7408 /* SampleApplication.hpp */,
+				B3679A681717996B00CB7408 /* res */,
+				B3679A441717996400CB7408 /* EClaySDK */,
+			);
+			sourceTree = "<group>";
+		};
+		B3679A441717996400CB7408 /* EClaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A451717996400CB7408 /* application */,
+				B3679A4B1717996400CB7408 /* cuda_helper */,
+				B3679A4D1717996400CB7408 /* EClay.hpp */,
+				B3679A4E1717996400CB7408 /* etc */,
+				B3679A521717996400CB7408 /* math */,
+				B3679A601717996400CB7408 /* renderer */,
+				B3679A651717996400CB7408 /* smart_pointer */,
+			);
+			path = EClaySDK;
+			sourceTree = "<group>";
+		};
+		B3679A451717996400CB7408 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A461717996400CB7408 /* ECCanvas.cpp */,
+				B3679A471717996400CB7408 /* ECCanvas.hpp */,
+				B3679A481717996400CB7408 /* ECModel.cpp */,
+				B3679A491717996400CB7408 /* ECModel.cu */,
+				B3679A4A1717996400CB7408 /* ECModel.hpp */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		B3679A4B1717996400CB7408 /* cuda_helper */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A4C1717996400CB7408 /* ECCudaOperator.cu */,
+			);
+			path = cuda_helper;
+			sourceTree = "<group>";
+		};
+		B3679A4E1717996400CB7408 /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A4F1717996400CB7408 /* ECUtil.cpp */,
+				B3679A501717996400CB7408 /* ECUtil.hpp */,
+				B3679A511717996400CB7408 /* stbi.hpp */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		B3679A521717996400CB7408 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A531717996400CB7408 /* ECMath.cuh */,
+				B3679A541717996400CB7408 /* ECMatrix.cpp */,
+				B3679A551717996400CB7408 /* ECMatrix.cu */,
+				B3679A561717996400CB7408 /* ECMatrix.cuh */,
+				B3679A571717996400CB7408 /* ECMatrix.hpp */,
+				B3679A581717996400CB7408 /* ECQuaternion.cpp */,
+				B3679A591717996400CB7408 /* ECQuaternion.cu */,
+				B3679A5A1717996400CB7408 /* ECQuaternion.cuh */,
+				B3679A5B1717996400CB7408 /* ECQuaternion.hpp */,
+				B3679A5C1717996400CB7408 /* ECVector.cpp */,
+				B3679A5D1717996400CB7408 /* ECVector.cu */,
+				B3679A5E1717996400CB7408 /* ECVector.cuh */,
+				B3679A5F1717996400CB7408 /* ECVector.hpp */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		B3679A601717996400CB7408 /* renderer */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A611717996400CB7408 /* ECPixelBuffer.cpp */,
+				B3679A621717996400CB7408 /* ECPixelBuffer.cu */,
+				B3679A631717996400CB7408 /* ECPixelBuffer.hpp */,
+				B3679A641717996400CB7408 /* ECRenderState.hpp */,
+			);
+			path = renderer;
+			sourceTree = "<group>";
+		};
+		B3679A651717996400CB7408 /* smart_pointer */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A661717996400CB7408 /* ECSmtPtr.hpp */,
+			);
+			path = smart_pointer;
+			sourceTree = "<group>";
+		};
+		B3679A681717996B00CB7408 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				B3679A691717996B00CB7408 /* bomb.mtl */,
+				B3679A6A1717996B00CB7408 /* bomb.obj */,
+				B3679A6B1717996B00CB7408 /* bomb.png */,
+				B3679A6C1717996B00CB7408 /* hare.mtl */,
+				B3679A6D1717996B00CB7408 /* hare.obj */,
+				B3679A6E1717996B00CB7408 /* hare.png */,
+				B3679A6F1717996B00CB7408 /* majo.mtl */,
+				B3679A701717996B00CB7408 /* majo.obj */,
+				B3679A711717996B00CB7408 /* majo.png */,
+				B3679A721717996B00CB7408 /* manjuu.mtl */,
+				B3679A731717996B00CB7408 /* manjuu.obj */,
+				B3679A741717996B00CB7408 /* manjuu.png */,
+				B3679A751717996B00CB7408 /* ninteru03.mtl */,
+				B3679A761717996B00CB7408 /* ninteru03.obj */,
+				B3679A771717996B00CB7408 /* ninterutexture02.png */,
+				B3679A781717996B00CB7408 /* no_nrm.png */,
+				B3679A791717996B00CB7408 /* onigiri.mtl */,
+				B3679A7A1717996B00CB7408 /* onigiri.obj */,
+				B3679A7B1717996B00CB7408 /* onigiri.png */,
+				B3679A7C1717996B00CB7408 /* plate.mtl */,
+				B3679A7D1717996B00CB7408 /* plate.obj */,
+				B3679A7E1717996B00CB7408 /* white.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		B3679A821717999A00CB7408 /* app */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = B3679A831717999A00CB7408 /* Build configuration list for PBXLegacyTarget "app" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "$(PROJECT_DIR)";
+			dependencies = (
+			);
+			name = app;
+			passBuildSettingsInEnvironment = 1;
+			productName = app;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		B3679A3A1717994F00CB7408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = B3679A3D1717994F00CB7408 /* Build configuration list for PBXProject "EClayProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3679A381717994F00CB7408;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3679A821717999A00CB7408 /* app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B3679A3F1717994F00CB7408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B3679A401717994F00CB7408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B3679A841717999A00CB7408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3679A851717999A00CB7408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3679A3D1717994F00CB7408 /* Build configuration list for PBXProject "EClayProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3679A3F1717994F00CB7408 /* Debug */,
+				B3679A401717994F00CB7408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3679A831717999A00CB7408 /* Build configuration list for PBXLegacyTarget "app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3679A841717999A00CB7408 /* Debug */,
+				B3679A851717999A00CB7408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3679A3A1717994F00CB7408 /* Project object */;
+}
