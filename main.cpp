@@ -32,7 +32,9 @@ extern "C" {
 static ECSmtPtr<ECCanvas> canvas;
 
 void draw() {
-    canvas->draw();
+    if( !canvas.isNull() ) {
+        canvas->draw();
+    }
     glClearColor( 0.0, 0.0, 0.0, 1.0 );
     glClear(GL_COLOR_BUFFER_BIT);
     glDrawPixels( SCREEN_W, SCREEN_H, GL_RGBA, GL_FLOAT, canvas->getPixelBuffer()->getPixels().getPtr() );
@@ -40,11 +42,24 @@ void draw() {
 }
 
 void update() {
-    canvas->update();
+    if( !canvas.isNull() ) {
+        canvas->update();
+    }
     glutPostRedisplay();
 }
 
+static int _argc;
+static char** _argv;
+void atExitFunc() {
+    canvas = (ECCanvas*)NULL;
+    gpuExit( _argc, _argv );
+}
+
 int main( int argc, char** argv ) {
+    
+    _argc = argc;
+    _argv = argv;
+    atexit( atExitFunc );
     
     canvas = MainCanvas::Create( SCREEN_W, SCREEN_H );
     

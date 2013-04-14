@@ -10,9 +10,9 @@
 		B3679A461717996400CB7408 /* ECCanvas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECCanvas.cpp; sourceTree = "<group>"; };
 		B3679A471717996400CB7408 /* ECCanvas.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECCanvas.hpp; sourceTree = "<group>"; };
 		B3679A481717996400CB7408 /* ECModel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECModel.cpp; sourceTree = "<group>"; };
-		B3679A491717996400CB7408 /* ECModel.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECModel.cu; sourceTree = "<group>"; };
+		B3679A491717996400CB7408 /* ECModel.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = ECModel.cu; sourceTree = "<group>"; };
 		B3679A4A1717996400CB7408 /* ECModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECModel.hpp; sourceTree = "<group>"; };
-		B3679A4C1717996400CB7408 /* ECCudaOperator.cu */ = {isa = PBXFileReference; lastKnownFileType = text; path = ECCudaOperator.cu; sourceTree = "<group>"; };
+		B3679A4C1717996400CB7408 /* ECCudaOperator.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = ECCudaOperator.cu; sourceTree = "<group>"; };
 		B3679A4D1717996400CB7408 /* EClay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EClay.hpp; sourceTree = "<group>"; };
 		B3679A4F1717996400CB7408 /* ECUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ECUtil.cpp; sourceTree = "<group>"; };
 		B3679A501717996400CB7408 /* ECUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ECUtil.hpp; sourceTree = "<group>"; };
@@ -318,6 +318,7 @@
 				B3679A851717999A00CB7408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

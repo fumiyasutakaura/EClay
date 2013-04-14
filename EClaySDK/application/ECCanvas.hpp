@@ -17,6 +17,8 @@ public:
     virtual void onUpdate() = 0;
     virtual void onDraw() = 0;
     
+    virtual ~ECCanvas() {}
+    
     ECSmtPtr<ECPixelBuffer> getPixelBuffer() { return pixelBuffer; }
     
     void update();
